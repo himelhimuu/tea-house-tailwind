@@ -201,7 +201,7 @@
    </Section>
    <!-- Footer Section -->
     <footer class="bg-linear-to-t from-[#ffefe9] to-[#f8bba5] p-12">
-      <div class="container mx-auto py-6">
+      <div class="container mx-auto py-6 space-y-8">
         <!-- footer top -->
       <div class="flex justify-between">
         <img src="./images/cup.png" alt="">
@@ -211,7 +211,7 @@
         </div>
       </div>
       <!-- footer links -->
-       <div class="border border-red-500 grid grid-cols-4">
+       <div class="grid grid-cols-4">
         <ul class="space-y-2">
           <li class="font-semibold text-xl">Quick Links</li>
           <li class="text-[#777777]"><a href="">Home</a></li>
@@ -236,11 +236,21 @@
           <li class="text-[#777777]"><a href="">Insurance</a></li>
           <li class="text-[#777777]"><a href="">Privacy Policy</a></li>
         </ul>
-        <div>
-          <h2>Subscribe to our newsletter</h2>
+        <div class="space-y-4">
+          <h2 class="text-3xl font-semibold">Subscribe to our newsletter</h2>
+          <div class="flex gap-1">
+            <input type="text" placeholder="Email address" class="border-b-2 pb2 outline-none w-full">
+          <button class="h-8 w-8 rounded-full text-white font-semibold bg-linear-65 from-[#ff8938] to-[#ff0000]"><span><i class="fa-solid fa-angle-right"></i></span></button>
+          </div>
+          <div class="flex gap-5">
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+          </div>
         </div>
        </div>
-      <div class="">
+       <!-- footer bottom -->
+      <div class="text-center text-[#777777]">
         &copy; 2026 himelhimuu - All rights reserved.
       </div>
     </div>
